@@ -1,0 +1,9 @@
+# the order of the roles dictate the series of tasks
+# Change the host names respective to your requirement
+---
+- name: Overall runbook
+  hosts: servers
+  roles:
+    - adduser
+
+
